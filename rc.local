@@ -21,6 +21,6 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo -u pi /home/pi/start-shairport.sh
+sudo -u pi /home/pi/start-shairplay.sh
 
 exit 0
