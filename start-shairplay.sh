@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e # Exit on error
+
 echo "Starting new tmux session: main"
 tmux new -d -s main
 
