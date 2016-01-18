@@ -2,7 +2,7 @@
 
 1. Set up wifi using [this guide](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis).
 
-2. `sudo apt-get update && sudo apt-get install git tmux emacs-nox autoconf automake libtool libltdl-dev libao-dev libavahi-compat-libdnssd-dev avahi-daemon`
+2. `sudo apt-get update && sudo apt-get install git tmux emacs-nox golang autoconf automake libtool libltdl-dev libao-dev libavahi-compat-libdnssd-dev avahi-daemon`
 
 3. `git clone https://github.com/juhovh/shairplay.git`
 
