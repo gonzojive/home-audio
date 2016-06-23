@@ -44,6 +44,7 @@ func runCmdOnce() error {
 		fmt.Sprintf("--apname=%s", name),
 		"--password=",
 		fmt.Sprintf("--hwaddr=%s", genHardwareAddr(randFromName(name))),
+		"--ao_devicename=iec958:DAC",
 	}
 	cmd := exec.Command("shairplay", args...)
 	cmd.Stdout = os.Stdout
